@@ -43,7 +43,7 @@ async function createGraduationCard(facultyId, summary = {}) {
   const [campus,toga,m1,m2,m3,logo]=await Promise.all([
     loadImage('assets/backgrounds/graduation_stage.webp'),
     loadImage(`assets/generated/player_toga_${facultyId}.png`),
-    loadImage('assets/backgrounds/kebersamaan.jpg'),
+    loadImage('assets/backgrounds/Kebersamaan.jpg'),
     loadImage('assets/backgrounds/tugas.jpg'),
     loadImage('assets/backgrounds/belajar.jpg'),
     loadImage(GAME_CONFIG.university.logo)
