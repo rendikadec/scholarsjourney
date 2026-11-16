@@ -285,7 +285,7 @@ const SPRITES = {
     building: 'assets/backgrounds/campus_building.webp',
     corridor: 'assets/backgrounds/corridor.webp',
     facultyInterior: 'assets/backgrounds/interior_corridor_pixel.webp',
-    libraryInterior: 'assets/backgrounds/perpustakaan.jpg',
+    libraryInterior: 'assets/backgrounds/Perpustakaan.jpg',
     canteenInterior: 'assets/backgrounds/interior_kantin.jpg',
     thesisInterior: 'assets/backgrounds/ruangsidang.jpg',
     graduation: 'assets/backgrounds/wisuda.jpg'
