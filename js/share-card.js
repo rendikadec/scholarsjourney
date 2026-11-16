@@ -51,7 +51,7 @@ async function createGraduationCard(facultyId, summary = {}) {
 
   c.fillStyle='#160f0b';c.fillRect(0,0,1080,1350); drawCover(c,campus,0,0,1080,670,.44);
   const shade=c.createLinearGradient(0,0,0,760);shade.addColorStop(0,'rgba(22,15,11,.08)');shade.addColorStop(.6,'rgba(22,15,11,.48)');shade.addColorStop(1,'#160f0b');c.fillStyle=shade;c.fillRect(0,0,1080,800);
-  c.fillStyle=faculty.color;c.fillRect(0,0,1080,16); c.fillStyle='#d7ae68';c.fillRect(76,86,928,2);
+  c.fillStyle=faculty.color;c.fillRect(0,0,1080,16); c.fillStyle='#d7ae68';c.fillRect(76,128,928,2);
 
   if(logo){c.save();roundRect(c,76,38,72,72,18);c.clip();drawCover(c,logo,76,38,72,72,1);c.restore()} else {c.fillStyle='#f4e3c2';c.font='800 38px system-ui';c.fillText(GAME_CONFIG.university.shortName.slice(0,1),96,88)}
   c.textAlign='left';c.fillStyle='#f4e3c2';c.font='700 22px system-ui';c.fillText(GAME_CONFIG.university.name.toUpperCase(),170,66);c.fillStyle='rgba(244,227,194,.65)';c.font='600 18px system-ui';c.fillText("SCHOLAR'S JOURNEY · GRADUATION KEEPSAKE",170,96);
